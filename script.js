@@ -81,7 +81,6 @@ gsap.from("#colon1", {
   scrollTrigger: {
     trigger: "#colon1",
     scroller: "body",
-    // markers:true,
     start: "top 55%",
     end: "top 45%",
     scrub: 3,
