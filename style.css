@@ -433,3 +433,226 @@ video {
   line-height: 20px;
   margin-bottom: 8px;
 }
+
+
+@media (max-width: 600px)
+{
+
+  html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+  #nav{
+      height: 23vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 120px;
+      gap: 8vw;
+      position: fixed;
+      justify-content: center;
+      z-index: 999;
+    }
+  
+    #nav img {
+      height: 30vw;
+    }
+  
+    #nav h4 {
+      text-transform: uppercase;
+      font-weight: 500;
+      cursor: pointer;
+      font-size: 6vw;
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: -1;
+        position: fixed;
+    }
+
+    #main {
+        position: relative;
+         background-color: rgba(0, 0, 0, 0.39);
+         width: 290vw;
+   }
+
+
+     #page1 {
+       height: 100vh;
+       width: 100%;
+       position: relative;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
+       z-index: 10;
+     }
+  
+     #page1 h1 {
+      margin-top: 20vh;
+       font-size: 18vw;
+       font-weight: 900;
+       position: relative;
+     }
+  
+     #page1 h1::before {
+       content: "ENGAGE.PLAY.EXPLORE.";
+       position: absolute;
+       color: #000;
+       top: -0.1vh;
+       left: -0.4vw;
+       -webkit-text-stroke: 1.5px #ec34f2;
+       z-index: -1;
+     }
+  
+     #page1 h2 {
+       font-size: 11vw;
+       font-weight: 800;
+       margin-top: 10px;
+       margin-bottom: 40px;
+     }
+  
+     #page1 p {
+       font-size: 8vw;
+       font-weight: 400;
+       width: 60%;
+     }
+
+     #arrow{
+      top: 88%;
+     }
+    #page1 #arrow i {
+           font-size: 50px;
+           font-weight: 100;
+       }
+  
+     #page2 {
+      margin-top: 46vh;
+       min-height: 100vh;
+       width: 100%;
+       z-index: 10;
+     }
+
+     #scroller{
+      bottom: 20vh;
+      white-space: nowrap;
+      overflow-x: auto;
+      overflow-y: hidden;
+       position: relative;
+       z-index: 10;
+     }
+
+     #scroller h4{
+          font-size: 30vh;
+     }
+
+    #about-us {
+        height: 10vh;
+         width: 100%;
+      }
+      #about-us img {
+        display: none;
+      }
+      #about-us-in {
+        width: 100%;
+       text-align: center;
+      }
+      #about-us-in h3 {
+        font-size: 27vw;
+        font-weight: 800;
+        font-style: italic;
+        color: rgb(248, 209, 239);
+        margin-top: 9vh;
+        margin-bottom: 27px;
+      }
+      #about-us-in p {
+        font-style: italic;
+        font-size: 9vw;
+        line-height: 46px;
+      }     
+
+
+      #cards-container{
+        margin-top: 30vh;
+        display: flex;
+        flex-direction: column;
+        height: 290vh;
+      }
+  
+    .card {
+      height: 100vh;
+      width: 64%;
+    }
+  
+    .overlay {
+      height: 100%;
+      width: 100%;
+      background-color: #ec34f2;
+      padding: 30px;
+      padding-top: 160px;
+      opacity: 0;
+      transition: all ease 0.6s;
+    }
+  
+    .overlay h4 {
+      color: #48224b;
+      font-size: 11vh;
+      text-transform: uppercase;
+      white-space: nowrap;
+      margin-bottom: 10px;
+      margin-top: -10vh;
+      font-weight: 800;
+    }
+  
+    .overlay p {
+      text-align: center;
+      color: #000;
+      font-size: 6vh;
+    }
+
+     #green-div h4{
+      width: 100%;
+      font-size: 4.2vh;
+     }
+
+     #page3>p{
+      font-size: 4vh;
+      font-style: italic;
+     }
+    #page4 h1{
+      top: -22%;
+      font-size: 8vh;
+    }
+
+    .elem{
+      top: 8%;
+      margin-bottom: 3vh;
+    }
+    .elem>h2{
+      font-size: 7.5vh;
+      font-weight: 900;
+      color: #221b21;
+    }
+
+    #footer{
+      margin-top: 3vh;
+    }
+    #f1>img{
+      width: 20vh;
+    }
+    #f2>h3{
+      font-size: 2.7vh;
+    }
+    #f3>h3{
+      font-size: 2.4vh;
+    }
+    #f4>h4{
+      font-size: 2.1vh;
+    }
+}
