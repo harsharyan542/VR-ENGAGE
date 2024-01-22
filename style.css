@@ -238,13 +238,13 @@ video {
   transition: all ease 0.6s;
 }
 #card1 {
-  background-image: url(./Assests/expeicard.jpg);
+  background-image: url(https://images.pexels.com/photos/6499175/pexels-photo-6499175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 #card2 {
-  background-image: url(./Assests/VRADV.jpg);
+  background-image: url(https://images.pexels.com/photos/6498303/pexels-photo-6498303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 #card3 {
-  background-image: url(./Assests/coffcard.jpg);
+  background-image: url(https://images.pexels.com/photos/6498957/pexels-photo-6498957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 .overlay {
   height: 100%;
